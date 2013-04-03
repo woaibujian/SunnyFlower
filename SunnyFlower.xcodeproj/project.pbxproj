@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D31EC93170BB10400036B07 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D31EC92170BB10400036B07 /* UIKit.framework */; };
+		5D31EC95170BB10400036B07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D31EC94170BB10400036B07 /* Foundation.framework */; };
+		5D31EC97170BB10400036B07 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D31EC96170BB10400036B07 /* CoreGraphics.framework */; };
+		5D31EC9D170BB10400036B07 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D31EC9B170BB10400036B07 /* InfoPlist.strings */; };
+		5D31EC9F170BB10400036B07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D31EC9E170BB10400036B07 /* main.m */; };
+		5D31ECA3170BB10400036B07 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D31ECA2170BB10400036B07 /* AppDelegate.m */; };
+		5D31ECA5170BB10400036B07 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D31ECA4170BB10400036B07 /* Default.png */; };
+		5D31ECA7170BB10400036B07 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D31ECA6170BB10400036B07 /* Default@2x.png */; };
+		5D31ECA9170BB10400036B07 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D31ECA8170BB10400036B07 /* Default-568h@2x.png */; };
+		5D31ECAC170BB10400036B07 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D31ECAB170BB10400036B07 /* ViewController.m */; };
+		5D31ECAF170BB10400036B07 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D31ECAD170BB10400036B07 /* ViewController.xib */; };
+		5D31ECB7170BB10400036B07 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D31ECB6170BB10400036B07 /* SenTestingKit.framework */; };
+		5D31ECB8170BB10400036B07 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D31EC92170BB10400036B07 /* UIKit.framework */; };
+		5D31ECB9170BB10400036B07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D31EC94170BB10400036B07 /* Foundation.framework */; };
+		5D31ECC1170BB10400036B07 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D31ECBF170BB10400036B07 /* InfoPlist.strings */; };
+		5D31ECC4170BB10400036B07 /* SunnyFlowerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D31ECC3170BB10400036B07 /* SunnyFlowerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D31ECBA170BB10400036B07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D31EC87170BB10400036B07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D31EC8E170BB10400036B07;
+			remoteInfo = SunnyFlower;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5D31EC8F170BB10400036B07 /* SunnyFlower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SunnyFlower.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D31EC92170BB10400036B07 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5D31EC94170BB10400036B07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5D31EC96170BB10400036B07 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5D31EC9A170BB10400036B07 /* SunnyFlower-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SunnyFlower-Info.plist"; sourceTree = "<group>"; };
+		5D31EC9C170BB10400036B07 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5D31EC9E170BB10400036B07 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5D31ECA0170BB10400036B07 /* SunnyFlower-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SunnyFlower-Prefix.pch"; sourceTree = "<group>"; };
+		5D31ECA1170BB10400036B07 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5D31ECA2170BB10400036B07 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5D31ECA4170BB10400036B07 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5D31ECA6170BB10400036B07 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5D31ECA8170BB10400036B07 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5D31ECAA170BB10400036B07 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5D31ECAB170BB10400036B07 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5D31ECAE170BB10400036B07 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		5D31ECB5170BB10400036B07 /* SunnyFlowerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunnyFlowerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D31ECB6170BB10400036B07 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5D31ECBE170BB10400036B07 /* SunnyFlowerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SunnyFlowerTests-Info.plist"; sourceTree = "<group>"; };
+		5D31ECC0170BB10400036B07 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5D31ECC2170BB10400036B07 /* SunnyFlowerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SunnyFlowerTests.h; sourceTree = "<group>"; };
+		5D31ECC3170BB10400036B07 /* SunnyFlowerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SunnyFlowerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D31EC8C170BB10400036B07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D31EC93170BB10400036B07 /* UIKit.framework in Frameworks */,
+				5D31EC95170BB10400036B07 /* Foundation.framework in Frameworks */,
+				5D31EC97170BB10400036B07 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D31ECB1170BB10400036B07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D31ECB7170BB10400036B07 /* SenTestingKit.framework in Frameworks */,
+				5D31ECB8170BB10400036B07 /* UIKit.framework in Frameworks */,
+				5D31ECB9170BB10400036B07 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D31EC86170BB10400036B07 = {
+			isa = PBXGroup;
+			children = (
+				5D31EC98170BB10400036B07 /* SunnyFlower */,
+				5D31ECBC170BB10400036B07 /* SunnyFlowerTests */,
+				5D31EC91170BB10400036B07 /* Frameworks */,
+				5D31EC90170BB10400036B07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D31EC90170BB10400036B07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D31EC8F170BB10400036B07 /* SunnyFlower.app */,
+				5D31ECB5170BB10400036B07 /* SunnyFlowerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D31EC91170BB10400036B07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D31EC92170BB10400036B07 /* UIKit.framework */,
+				5D31EC94170BB10400036B07 /* Foundation.framework */,
+				5D31EC96170BB10400036B07 /* CoreGraphics.framework */,
+				5D31ECB6170BB10400036B07 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D31EC98170BB10400036B07 /* SunnyFlower */ = {
+			isa = PBXGroup;
+			children = (
+				5D31ECA1170BB10400036B07 /* AppDelegate.h */,
+				5D31ECA2170BB10400036B07 /* AppDelegate.m */,
+				5D31ECAA170BB10400036B07 /* ViewController.h */,
+				5D31ECAB170BB10400036B07 /* ViewController.m */,
+				5D31ECAD170BB10400036B07 /* ViewController.xib */,
+				5D31EC99170BB10400036B07 /* Supporting Files */,
+			);
+			path = SunnyFlower;
+			sourceTree = "<group>";
+		};
+		5D31EC99170BB10400036B07 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D31EC9A170BB10400036B07 /* SunnyFlower-Info.plist */,
+				5D31EC9B170BB10400036B07 /* InfoPlist.strings */,
+				5D31EC9E170BB10400036B07 /* main.m */,
+				5D31ECA0170BB10400036B07 /* SunnyFlower-Prefix.pch */,
+				5D31ECA4170BB10400036B07 /* Default.png */,
+				5D31ECA6170BB10400036B07 /* Default@2x.png */,
+				5D31ECA8170BB10400036B07 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5D31ECBC170BB10400036B07 /* SunnyFlowerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5D31ECC2170BB10400036B07 /* SunnyFlowerTests.h */,
+				5D31ECC3170BB10400036B07 /* SunnyFlowerTests.m */,
+				5D31ECBD170BB10400036B07 /* Supporting Files */,
+			);
+			path = SunnyFlowerTests;
+			sourceTree = "<group>";
+		};
+		5D31ECBD170BB10400036B07 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D31ECBE170BB10400036B07 /* SunnyFlowerTests-Info.plist */,
+				5D31ECBF170BB10400036B07 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D31EC8E170BB10400036B07 /* SunnyFlower */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D31ECC7170BB10400036B07 /* Build configuration list for PBXNativeTarget "SunnyFlower" */;
+			buildPhases = (
+				5D31EC8B170BB10400036B07 /* Sources */,
+				5D31EC8C170BB10400036B07 /* Frameworks */,
+				5D31EC8D170BB10400036B07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SunnyFlower;
+			productName = SunnyFlower;
+			productReference = 5D31EC8F170BB10400036B07 /* SunnyFlower.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D31ECB4170BB10400036B07 /* SunnyFlowerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D31ECCA170BB10400036B07 /* Build configuration list for PBXNativeTarget "SunnyFlowerTests" */;
+			buildPhases = (
+				5D31ECB0170BB10400036B07 /* Sources */,
+				5D31ECB1170BB10400036B07 /* Frameworks */,
+				5D31ECB2170BB10400036B07 /* Resources */,
+				5D31ECB3170BB10400036B07 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D31ECBB170BB10400036B07 /* PBXTargetDependency */,
+			);
+			name = SunnyFlowerTests;
+			productName = SunnyFlowerTests;
+			productReference = 5D31ECB5170BB10400036B07 /* SunnyFlowerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D31EC87170BB10400036B07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = yah;
+			};
+			buildConfigurationList = 5D31EC8A170BB10400036B07 /* Build configuration list for PBXProject "SunnyFlower" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5D31EC86170BB10400036B07;
+			productRefGroup = 5D31EC90170BB10400036B07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D31EC8E170BB10400036B07 /* SunnyFlower */,
+				5D31ECB4170BB10400036B07 /* SunnyFlowerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D31EC8D170BB10400036B07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D31EC9D170BB10400036B07 /* InfoPlist.strings in Resources */,
+				5D31ECA5170BB10400036B07 /* Default.png in Resources */,
+				5D31ECA7170BB10400036B07 /* Default@2x.png in Resources */,
+				5D31ECA9170BB10400036B07 /* Default-568h@2x.png in Resources */,
+				5D31ECAF170BB10400036B07 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D31ECB2170BB10400036B07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D31ECC1170BB10400036B07 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5D31ECB3170BB10400036B07 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D31EC8B170BB10400036B07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D31EC9F170BB10400036B07 /* main.m in Sources */,
+				5D31ECA3170BB10400036B07 /* AppDelegate.m in Sources */,
+				5D31ECAC170BB10400036B07 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D31ECB0170BB10400036B07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D31ECC4170BB10400036B07 /* SunnyFlowerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D31ECBB170BB10400036B07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D31EC8E170BB10400036B07 /* SunnyFlower */;
+			targetProxy = 5D31ECBA170BB10400036B07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5D31EC9B170BB10400036B07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D31EC9C170BB10400036B07 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5D31ECAD170BB10400036B07 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D31ECAE170BB10400036B07 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		5D31ECBF170BB10400036B07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D31ECC0170BB10400036B07 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D31ECC5170BB10400036B07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5D31ECC6170BB10400036B07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D31ECC8170BB10400036B07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SunnyFlower/SunnyFlower-Prefix.pch";
+				INFOPLIST_FILE = "SunnyFlower/SunnyFlower-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5D31ECC9170BB10400036B07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SunnyFlower/SunnyFlower-Prefix.pch";
+				INFOPLIST_FILE = "SunnyFlower/SunnyFlower-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5D31ECCB170BB10400036B07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SunnyFlower.app/SunnyFlower";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SunnyFlower/SunnyFlower-Prefix.pch";
+				INFOPLIST_FILE = "SunnyFlowerTests/SunnyFlowerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5D31ECCC170BB10400036B07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SunnyFlower.app/SunnyFlower";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SunnyFlower/SunnyFlower-Prefix.pch";
+				INFOPLIST_FILE = "SunnyFlowerTests/SunnyFlowerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D31EC8A170BB10400036B07 /* Build configuration list for PBXProject "SunnyFlower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D31ECC5170BB10400036B07 /* Debug */,
+				5D31ECC6170BB10400036B07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D31ECC7170BB10400036B07 /* Build configuration list for PBXNativeTarget "SunnyFlower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D31ECC8170BB10400036B07 /* Debug */,
+				5D31ECC9170BB10400036B07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5D31ECCA170BB10400036B07 /* Build configuration list for PBXNativeTarget "SunnyFlowerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D31ECCB170BB10400036B07 /* Debug */,
+				5D31ECCC170BB10400036B07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D31EC87170BB10400036B07 /* Project object */;
+}
